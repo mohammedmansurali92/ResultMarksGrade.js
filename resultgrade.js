@@ -61,3 +61,12 @@ else if(num2>num1 && num2>num3){
 else{
   document.write(num3);
 };
+ //vowel/consonant
+ var letter= prompt("Enter a Letter :");
+   letter = letter.toLowerCase()
+  if(letter=="a" || letter=="e" || letter=="i" || letter=="o" || letter=="u"){
+    document.write("Vowel");
+  }
+  else{
+    document.write("consonent");
+  };
