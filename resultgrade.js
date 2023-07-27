@@ -47,3 +47,17 @@
    else{
     document.write("Failed");
   };
+Another code of version (if else)
+var num1 = prompt("Enter Numer1 :");
+var num2 = prompt("Enter Numer2 :");
+var num3 = prompt("Enter Numer3 :");
+
+if(num1>num2 && num1>num3){
+  document.write(num1);
+}
+else if(num2>num1 && num2>num3){
+  document.write(num2);
+}
+else{
+  document.write(num3);
+};
